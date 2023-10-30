@@ -1,4 +1,4 @@
-# cdc-color-extension
+# CDC (CV) Deadline Status
 
  
 The CV Submission Tracker Extension is a simple and handy tool designed to help you keep track of your CV submission deadlines. It provides color-coded indicators that help you quickly identify whether a submission deadline is open or closed. Green indicates an open deadline, while red signifies that CV submission is closed
