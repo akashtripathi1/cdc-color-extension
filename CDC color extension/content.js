@@ -45,9 +45,18 @@ function selectedElements(element) {
   array.push(previousElement); // (Application status)
   previousElement = previousElement.previousElementSibling;
   array.push(previousElement); // (Application Details)
-  previousElement = previousElement.previousElementSibling.previousElementSibling.previousElementSibling; 
+  previousElement = previousElement.previousElementSibling;
+  array.push(previousElement); // (Application Details)
+  previousElement = previousElement.previousElementSibling;
+  array.push(previousElement); // (Application Details)
+  //previousElement = previousElement.previousElementSibling.previousElementSibling.previousElementSibling; 
+  
+  previousElement = previousElement.previousElementSibling;
   array.push(previousElement); // Apply/Acceptance
-  previousElement = previousElement.previousElementSibling.previousElementSibling;
+  previousElement = previousElement.previousElementSibling;
+  array.push(previousElement); // Apply/Acceptance
+  // previousElement = previousElement.previousElementSibling.previousElementSibling;
+  previousElement = previousElement.previousElementSibling;
   array.push(previousElement); // PPT
   previousElement = previousElement.previousElementSibling;
   array.push(previousElement); // Additional Details
