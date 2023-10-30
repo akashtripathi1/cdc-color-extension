@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "CDC (CV) Deadline Status",
+  "version": "1.0",
+  "permissions": [
+    "webNavigation",
+    "activeTab"
+  ],
+  "description": "A simple extension to track CV submission deadlines with color indicators. Green indicates an open deadline, while red signifies that CV submission is closed. If the extension is not working then reload the page",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://erp.iitkgp.ac.in/IIT_ERP3/showmenu.htm"],
+      "js": ["content.js"]
+    }
+  ]
+}
