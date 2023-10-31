@@ -6,7 +6,7 @@
     "webNavigation",
     "activeTab"
   ],
-  "description": "A simple extension to track CV submission deadlines with color indicators. Green indicates an open deadline, while red signifies that CV submission is closed.",
+  "description": "Track CV submission deadlines with color indicators.",
   "icons": {
     "16": "icon-16.png",
     "48": "icon-48.png",
