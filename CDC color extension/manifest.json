@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "CDC (CV) Deadline Status",
+  "name": "CDC (CV) Deadline Status - IIT KGP",
   "version": "1.0",
-  "permissions": [
-    "webNavigation",
-    "activeTab"
+  "permissions": [ 
+    
   ],
   "description": "Track CV submission deadlines with color indicators.",
   "icons": {
